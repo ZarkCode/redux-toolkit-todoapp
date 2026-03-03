@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import RecordTable from "./components/RecordTable";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <RecordTable />
+    </div>
+  );
+};
 
-export default App
+export default App;
