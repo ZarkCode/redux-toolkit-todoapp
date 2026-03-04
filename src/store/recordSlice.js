@@ -84,7 +84,7 @@ const recordsSlice = createSlice({
     },
 
     // search record
-    setSeaechTerm: (state, action) => {
+    setSearchTerm: (state, action) => {
       state.searchTerm = action.payload;
     },
 
@@ -100,7 +100,7 @@ export const {
   addRecord,
   updateRecord,
   deleteRecord,
-  setSeaechTerm,
+  setSearchTerm,
   resetAllRecords,
 } = recordsSlice.actions;
 
