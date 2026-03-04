@@ -1,11 +1,13 @@
 import React from "react";
 import RecordTable from "./components/RecordTable";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 
 const App = () => {
   return (
-    <div>
+    <Provider store={store}>
       <RecordTable />
-    </div>
+    </Provider>
   );
 };
 
